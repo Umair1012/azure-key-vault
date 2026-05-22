@@ -50,8 +50,6 @@ v24.x.x
 Install Azure Identity and Azure Key Vault packages:
 
 ```bash
-npm install @azure/identity @azure/keyvault-secrets
-Or
 npm install @azure/identity @azure/keyvault-secrets chalk ora boxen dotenv
 ```
 
