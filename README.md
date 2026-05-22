@@ -51,6 +51,8 @@ Install Azure Identity and Azure Key Vault packages:
 
 ```bash
 npm install @azure/identity @azure/keyvault-secrets
+Or
+npm install @azure/identity @azure/keyvault-secrets chalk ora boxen dotenv
 ```
 
 ---
@@ -59,6 +61,13 @@ npm install @azure/identity @azure/keyvault-secrets
 
 ```bash
 npm init -y
+```
+
+# 📦 Create .env
+
+```bash
+KEY_VAULT_NAME=myKeyVault123
+SECRET_NAME=DbPassword
 ```
 
 ---
